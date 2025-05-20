@@ -60,6 +60,10 @@ body {
   cursor: pointer;
 }
 
+#newtask button:hover {
+  border: 2px #111111 solid;
+}
+
 #tasks {
   background-color: #ffffff;
   padding: 30px 20px;
