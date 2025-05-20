@@ -35,9 +35,15 @@ body {
   height: 45px;
   font-size: 15px;
   border: 2px solid #d1d3d4;
+  border-radius: 5px;
   padding: 12px;
   color: #111111;
   font-weight: 500;
+}
+
+#newtask input:focus {
+  outline: none;
+  border-color: #8052ec;
 }
 
 #newtask button {
