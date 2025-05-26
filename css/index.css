@@ -84,11 +84,16 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid #d1d3d4;
+  cursor: pointer;
 }
 
 .task span {
   font-size: 15px;
   font-weight: 400;
+}
+
+.completed {
+  text-decoration: line-through;
 }
 
 .task button {
