@@ -17,9 +17,16 @@ window.addEventListener('load', function () {
         deleteButtons[i].onclick = function () {
           this.parentNode.remove();
         }
+        let tasks = document.querySelectorAll('.task');
+        for (let i = 0; i < tasks.length; i++) {
+          tasks[i].onclick = function () {
+            this.classList.toggle('completed');
+          }
+        }
       }
       newTaskInput.value = "";
     }
+
   }
 })
 
